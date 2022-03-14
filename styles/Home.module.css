@@ -1,28 +1,37 @@
 .main{
   margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .title {
-  color: #FFFFFF;
+  color: #c7c7c7;
   padding-bottom: 20px;
-  opacity: 87%;
-  text-align: center;
+  line-height: 4rem;
 }
 .text {
-  color: #FFFFFF;
-  opacity: 87%;
+  color: #c7c7c7;
 }
 .name {
   color: #d1564d;
 }
 .btn {
   display: block;
-  width: 150px;
+  width: 175px;
   padding: 8px 0;
   margin: 20px auto;
-  background: #d1564d;
-  border-radius: 4px;
-  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border: #d1564d solid 1px;
+  color: #d1564d;
   text-align: center;
+  -webkit-transition: color 0.5s, background-color 0.5s, border 0.5s;
+  -o-transition: color 0.5s, background-color 0.5s, border 0.5s;
+}
+.btn:hover{
+  color: #121212;
+  background-color: #d1564d;
 }
 .logo{
   width: 100%;

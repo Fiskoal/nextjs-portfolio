@@ -4,20 +4,20 @@ import style from '../styles/Home.module.css'
 
 const Navbar = () => {
   return ( 
-    <menu>
+    <nav>
       <div className={style.logo}>
         <Link href='/'>
           <Image src="/logo.png" width='100px' height='100px'></Image>
         </Link>
       </div>
-      <nav className={style.links}>
+      <div className={style.links}>
         <Link href="/skills"><a>Skills</a></Link>
         <Link href="/work"><a>Work</a></Link>
         <Link href="/about"><a>About</a></Link>
-        <Link href="/resume"><a>Resume</a></Link>
-      </nav>
+        <a href='./resume.pdf' download>Resume</a>
+      </div>
       <div></div>
-    </menu>
+    </nav>
    );
 }
  
