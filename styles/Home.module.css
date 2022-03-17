@@ -26,16 +26,24 @@
   border: #d1564d solid 1px;
   color: #d1564d;
   text-align: center;
-  -webkit-transition: color 0.5s, background-color 0.5s, border 0.5s;
-  -o-transition: color 0.5s, background-color 0.5s, border 0.5s;
+  -webkit-transition: color 0.5s, background-color 0.5s, padding 0.5s, margin-top 0.5s, margin-bottom 0.5s, font-weight 0.5s;
+  -o-transition: color 0.5s, background-color 0.5s, padding 0.5s, margin-top 0.5s, margin-bottom 0.5s, font-weight 0.5s;
 }
 .btn:hover{
   color: #121212;
   background-color: #d1564d;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 20px 10px;
+  font-weight: 1000;
 }
 .logo{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
 }

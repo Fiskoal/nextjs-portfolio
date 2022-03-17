@@ -46,7 +46,8 @@ nav{
   padding: 2vh 0;
 }
 nav a {
-  margin: 10px;
+  /* margin: 10px; */
+  padding: 10px;
   color: #8c8c8c;
   text-align: center;
   width: 100%;
@@ -54,12 +55,13 @@ nav a {
   font-size: 1.2rem;
   line-height: 2rem;
   border-bottom: 1px solid #282828;
-  -webkit-transition: color 0.5s, background-color 0.5s;
-  -o-transition: color 0.5s, background-color 0.5s;
+  -webkit-transition: color 0.5s, background-color 0.5s, padding 0.5s;
+  -o-transition: color 0.5s, background-color 0.5s, padding 0.5s;
 }
 nav a:hover {
   color: #bfbfbf;
   background-color: #282828;
+  padding: 20px 10px;
 }
 .not-found {
   text-align: center;

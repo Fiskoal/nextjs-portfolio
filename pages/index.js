@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.main}>
-      <div>
+      <div className={styles.container}>
         <h1 className={styles.title}>
           Hi, I&apos;m <span className={styles.name}>Jakob Knicley</span>
           <br></br>
