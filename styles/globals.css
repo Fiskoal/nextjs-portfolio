@@ -70,7 +70,9 @@ nav a:hover {
   color: #4979ff;
   text-decoration: underline;
 }
-
+p{
+  font-weight: 600;
+}
 @media only screen and (max-width: 600px) {
   nav{
     display: none;
